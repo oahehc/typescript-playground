@@ -803,16 +803,24 @@ declare namespace D3 {
 declare var d3: D3.Base;
 ```
 
-```ts
-```
+---
+
+## 4.0: https://devblogs.microsoft.com/typescript/announcing-typescript-4-0/
 
 ```ts
-```
+type Unbounded = [...Strings, ...Numbers, boolean];
 
-```ts
-```
+// Labeled Tuple Elements
+type Range = [start: number, end: number];
 
-```ts
+// Short-Circuiting Assignment Operators
+&&=, ||=, ??=
+
+// /** @deprecated */ Support
+let obj = {
+  /** @deprecated */
+  someMethod() { ... }
+}
 ```
 
 ---
