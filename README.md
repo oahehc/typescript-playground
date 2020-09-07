@@ -808,6 +808,7 @@ declare var d3: D3.Base;
 ## 4.0: https://devblogs.microsoft.com/typescript/announcing-typescript-4-0/
 
 ```ts
+// Variadic Tuple Types
 type Unbounded = [...Strings, ...Numbers, boolean];
 
 // Labeled Tuple Elements
