@@ -6,6 +6,7 @@
   "author": "oahehc <oahehc@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "dev": "tsc --watch",
     "build": "tsc",
     "start": "npm run build -- --watch & nodemon index.js"
   },

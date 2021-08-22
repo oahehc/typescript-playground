@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "outDir": "./out",
+    "declaration": true,
   },
-  "files": ["index.ts"]
+  "files": [
+    "index.ts"
+  ]
 }
