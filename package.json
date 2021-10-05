@@ -6,8 +6,12 @@
   "author": "oahehc <oahehc@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "save": "./scripts/save.sh",
+    "clear": "rm -r out/",
+    "predev": "npm run clear",
     "dev": "tsc --watch",
-    "build": "rm -r out/ && tsc",
+    "prebuild": "npm run clear",
+    "build": "tsc",
     "start": "npm run build -- --watch & nodemon out/index.js"
   },
   "dependencies": {
